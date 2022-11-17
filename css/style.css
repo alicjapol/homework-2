@@ -1,0 +1,258 @@
+body {
+  background: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  text-decoration: #212121;
+}
+body:hover {
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.nav-agency {
+  width: 53px;
+  height: 16px;
+  margin-left: 453px;
+  margin-top: 32px;
+}
+.nav-portfolio {
+  width: 58px;
+  height: 16px;
+  margin-left: 552px;
+  margin-top: 32px;
+
+  color: #2196f3;
+}
+.nav-contact {
+  width: 58px;
+  height: 16px;
+  margin-left: 656px;
+  margin-top: 32px;
+}
+.mail {
+  width: 135px;
+  height: 16px;
+  margin-left: 1078px;
+  margin-top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.mail:active {
+  color: #2196f3;
+}
+.tel {
+  width: 135px;
+  height: 16px;
+  margin-left: 1263px;
+  margin-top: 32px;
+
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.tel:active {
+  color: #2196f3;
+}
+.header {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  margin-left: 452px;
+  padding-top: 200px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.order-button {
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 430px;
+  background: #2196f3;
+  border-radius: 4px;
+}
+.order-text {
+  width: 117px;
+  height: 30px;
+  left: 742px;
+  top: 440px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.main {
+  background: #ffffff;
+}
+h3 {
+  width: 270px;
+  height: 16px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.about {
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.what-we-do {
+  width: 352px;
+  height: 42px;
+  margin-left: 624px;
+  text-align: center;
+}
+.topic-one {
+  width: 270px;
+  height: 16px;
+  margin-left: 215px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.topic-two {
+  width: 270px;
+  height: 16px;
+  margin-left: 515px;
+
+  font-weight: 700;
+  font-size: 14px;
+}
+.topic-three {
+  width: 270px;
+  height: 16px;
+  margin-left: 815px;
+  top: 774px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.topic-four {
+  width: 270px;
+  height: 16px;
+  margin-left: 1115px;
+  top: 774px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.one {
+  margin-left: 215px;
+}
+.two {
+  margin-left: 515px;
+}
+.three {
+  margin-left: 815px;
+}
+.four {
+  margin-left: 1115px;
+}
+h3 {
+  width: 352px;
+  height: 42px;
+  margin-left: 624px;
+  top: 969px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.workplace {
+  width: 370px;
+  height: 294px;
+  margin-left: 215px;
+  top: 1061px;
+}
+.phone {
+  width: 370px;
+  height: 294px;
+  margin-left: 615px;
+  top: 1061px;
+}
+.tablet {
+  width: 370px;
+  height: 294px;
+  margin-left: 1015px;
+  top: 1061px;
+}
+.team-header {
+  width: 210px;
+  height: 42px;
+  margin-left: 695px;
+  top: 1543px;
+  white-space: nowrap;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+footer {
+  background: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+}
