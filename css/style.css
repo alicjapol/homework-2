@@ -1,8 +1,7 @@
 body {
   background: #e5e5e5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Montserrat", sans-serif;
   text-decoration: none;
-  text-decoration: #212121;
 }
 body:hover {
   color: black;
@@ -24,38 +23,44 @@ ul {
 .logo {
   width: 145px;
   height: 31px;
-  margin-left: 215px;
-  margin-top: 24px;
+  padding-right: 46px;
+  padding-left: 215px;
+  font-family: "Raleway", sans-serif;
 
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
+.nav {
+  display: flex;
+  flex: 1;
+  gap: 46px;
+  align-items: center;
+}
 .nav-agency {
   width: 53px;
   height: 16px;
-  margin-left: 453px;
-  margin-top: 32px;
+}
+.nav-agency:active {
+  color: #2196f3;
 }
 .nav-portfolio {
   width: 58px;
   height: 16px;
-  margin-left: 552px;
-  margin-top: 32px;
-
+}
+.nav-portfolio:active {
   color: #2196f3;
 }
 .nav-contact {
   width: 58px;
   height: 16px;
-  margin-left: 656px;
-  margin-top: 32px;
+}
+.nav-contact:active {
+  color: #2196f3;
 }
 .mail {
   width: 135px;
   height: 16px;
-  margin-left: 1078px;
-  margin-top: 32px;
 
   font-size: 14px;
   line-height: 16px;
@@ -69,8 +74,6 @@ ul {
 .tel {
   width: 135px;
   height: 16px;
-  margin-left: 1263px;
-  margin-top: 32px;
 
   font-size: 14px;
   line-height: 16px;
@@ -90,8 +93,6 @@ h1 {
   position: absolute;
   width: 696px;
   height: 120px;
-  margin-left: 452px;
-  padding-top: 200px;
 
   font-weight: 900;
   font-size: 44px;
@@ -105,16 +106,13 @@ h1 {
 .order-button {
   width: 200px;
   height: 50px;
-  margin-left: 700px;
-  margin-top: 430px;
+
   background: #2196f3;
   border-radius: 4px;
 }
 .order-text {
   width: 117px;
   height: 30px;
-  left: 742px;
-  top: 440px;
 
   font-weight: 700;
   font-size: 16px;
@@ -142,8 +140,6 @@ h3 {
 .about {
   width: 270px;
   height: 75px;
-  left: 215px;
-  top: 800px;
 
   font-weight: 400;
   font-size: 14px;
@@ -155,13 +151,11 @@ h3 {
 .what-we-do {
   width: 352px;
   height: 42px;
-  margin-left: 624px;
   text-align: center;
 }
 .topic-one {
   width: 270px;
   height: 16px;
-  margin-left: 215px;
 
   font-weight: 700;
   font-size: 14px;
@@ -171,16 +165,13 @@ h3 {
 .topic-two {
   width: 270px;
   height: 16px;
-  margin-left: 515px;
-
   font-weight: 700;
   font-size: 14px;
 }
 .topic-three {
   width: 270px;
   height: 16px;
-  margin-left: 815px;
-  top: 774px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -188,30 +179,15 @@ h3 {
 .topic-four {
   width: 270px;
   height: 16px;
-  margin-left: 1115px;
-  top: 774px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
 }
-.one {
-  margin-left: 215px;
-}
-.two {
-  margin-left: 515px;
-}
-.three {
-  margin-left: 815px;
-}
-.four {
-  margin-left: 1115px;
-}
+
 h3 {
   width: 352px;
   height: 42px;
-  margin-left: 624px;
-  top: 969px;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -221,26 +197,19 @@ h3 {
 .workplace {
   width: 370px;
   height: 294px;
-  margin-left: 215px;
-  top: 1061px;
 }
 .phone {
   width: 370px;
   height: 294px;
-  margin-left: 615px;
-  top: 1061px;
 }
+
 .tablet {
   width: 370px;
   height: 294px;
-  margin-left: 1015px;
-  top: 1061px;
 }
 .team-header {
   width: 210px;
   height: 42px;
-  margin-left: 695px;
-  top: 1543px;
   white-space: nowrap;
 
   font-weight: 700;
@@ -249,10 +218,83 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
 footer {
-  background: #f5f4fa;
   width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  height: 252px;
+
+  background: #2f303a;
+}
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-studio {
+  color: white;
+}
+
+.address {
+  text-decoration: none;
+  width: 246px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.figcaption {
+  width: 72px;
+  height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.job-position {
+  width: 130px;
+  height: 19px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer-mail {
+  width: 231px;
+  height: 21px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:active {
+  color: #2196f3;
+}
+.footer-tel {
+  width: 231px;
+  height: 21px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:active {
+  color: #2196f3;
 }
