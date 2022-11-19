@@ -95,7 +95,7 @@ body:hover {
   width: 1600px;
   height: 600px;
 }
-h1 {
+.header {
   position: absolute;
   width: 696px;
   height: 120px;
@@ -132,16 +132,6 @@ h1 {
 }
 .main {
   background: #ffffff;
-}
-h3 {
-  width: 270px;
-  height: 16px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .about {
   width: 270px;
@@ -196,15 +186,6 @@ h3 {
   text-align: left;
 }
 
-h3 {
-  width: 352px;
-  height: 42px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
 .workplace {
   width: 370px;
   height: 294px;
