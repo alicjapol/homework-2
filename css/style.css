@@ -1,20 +1,16 @@
 body {
   background: #e5e5e5;
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
 }
 body:hover {
   color: black;
 }
-a {
-  text-decoration: none;
-  color: black;
-}
-header {
+
+.logo-nav {
   background: #ffffff;
 }
 
-ul {
+.ul {
   list-style: none;
 }
 .logo-web {
@@ -29,7 +25,9 @@ ul {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
 }
 .nav {
   display: flex;
@@ -40,6 +38,8 @@ ul {
 .nav-agency {
   width: 53px;
   height: 16px;
+  color: #212121;
+  text-decoration: none;
 }
 .nav-agency:active {
   color: #2196f3;
@@ -47,6 +47,8 @@ ul {
 .nav-portfolio {
   width: 58px;
   height: 16px;
+  color: #212121;
+  text-decoration: none;
 }
 .nav-portfolio:active {
   color: #2196f3;
@@ -54,6 +56,8 @@ ul {
 .nav-contact {
   width: 58px;
   height: 16px;
+  color: #212121;
+  text-decoration: none;
 }
 .nav-contact:active {
   color: #2196f3;
@@ -63,10 +67,11 @@ ul {
   height: 16px;
 
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
+  text-decoration: none;
 }
 .mail:active {
   color: #2196f3;
@@ -76,10 +81,11 @@ ul {
   height: 16px;
 
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
+  text-decoration: none;
 }
 .tel:active {
   color: #2196f3;
@@ -96,7 +102,7 @@ h1 {
 
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -116,7 +122,7 @@ h1 {
 
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1, 87;
 
   align-items: center;
   text-align: center;
@@ -133,7 +139,7 @@ h3 {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -143,7 +149,7 @@ h3 {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
 
   color: #757575;
@@ -159,14 +165,17 @@ h3 {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-align: left;
 }
 .topic-two {
   width: 270px;
   height: 16px;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
 }
 .topic-three {
   width: 270px;
@@ -174,7 +183,8 @@ h3 {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  text-align: left;
 }
 .topic-four {
   width: 270px;
@@ -182,7 +192,8 @@ h3 {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
+  text-align: left;
 }
 
 h3 {
@@ -190,7 +201,7 @@ h3 {
   height: 42px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -214,12 +225,12 @@ h3 {
 
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
 
-footer {
+.footer {
   width: 1600px;
   height: 252px;
 
@@ -229,23 +240,24 @@ footer {
   width: 145px;
   height: 31px;
   font-family: "Raleway", sans-serif;
+  text-decoration: none;
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .logo-studio {
   color: white;
 }
 
 .address {
-  text-decoration: none;
   width: 246px;
   height: 21px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   color: #ffffff;
 }
 .figcaption {
@@ -253,7 +265,7 @@ footer {
   height: 19px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -264,7 +276,7 @@ footer {
 
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -276,8 +288,10 @@ footer {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -290,9 +304,11 @@ footer {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:active {

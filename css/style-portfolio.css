@@ -1,8 +1,186 @@
 body {
   background: #e5e5e5;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
 }
-a {
-  text-decoration: none;
+body:hover {
   color: black;
+}
+.logo {
+  width: 145px;
+  height: 31px;
+  padding-right: 46px;
+  padding-left: 215px;
+  font-family: "Raleway", sans-serif;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.ul {
+  list-style: none;
+}
+
+.nav {
+  color: #212121;
+  text-decoration: none;
+}
+.agency {
+  width: 53px;
+  height: 16px;
+}
+.agency:active {
+  color: #2196f3;
+}
+.portfolio {
+  width: 58px;
+  height: 16px;
+  color: #2196f3;
+}
+.portfolio:active {
+  color: #2196f3;
+}
+
+.contact {
+  width: 58px;
+  height: 16px;
+}
+.contact:active {
+  color: #2196f3;
+}
+
+.mail {
+  width: 135px;
+  height: 16px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  text-decoration: none;
+}
+.mail:active {
+  color: #2196f3;
+}
+.tel {
+  width: 135px;
+  height: 16px;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+  text-decoration: none;
+}
+.tel:active {
+  color: #2196f3;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #2196f3;
+  color: white;
+}
+.all,
+.pages,
+.apps,
+.design,
+.marketing {
+  width: 49px;
+  height: 26px;
+
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button {
+  width: 93px;
+  height: 38px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.button-type {
+  width: 322px;
+  height: 30px;
+
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: #757575;
+}
+.caption {
+  width: 322px;
+  height: 36px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+
+  background: #2f303a;
+}
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-studio {
+  color: white;
+}
+.address {
+  width: 246px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #ffffff;
+}
+.footer-mail {
+  width: 231px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:active {
+  color: #2196f3;
+}
+.footer-tel {
+  width: 231px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel:active {
+  color: #2196f3;
 }
