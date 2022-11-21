@@ -23,7 +23,7 @@ body {
   font-family: "Raleway", sans-serif;
 
   font-weight: 700;
-  font-size: 1.62;
+  font-size: 1.62rem;
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
@@ -72,7 +72,7 @@ body {
 .mail {
   width: 135px;
   height: 16px;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -86,7 +86,7 @@ body {
 .tel {
   width: 135px;
   height: 16px;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
@@ -107,7 +107,7 @@ body {
   width: 696px;
   height: 120px;
   font-weight: 900;
-  font-size: 2.75;
+  font-size: 2.75rem;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -126,7 +126,7 @@ body {
   height: 30px;
 
   font-weight: 700;
-  font-size: 1;
+  font-size: 1rem;
   line-height: 1.87;
   align-items: center;
   text-align: center;
@@ -142,7 +142,7 @@ body {
   width: 270px;
   height: 75px;
   font-weight: 400;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
@@ -159,7 +159,7 @@ body {
   width: 270px;
   height: 16px;
   font-weight: 700;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
@@ -169,7 +169,7 @@ body {
   width: 270px;
   height: 16px;
   font-weight: 700;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   text-align: left;
 }
@@ -178,7 +178,7 @@ body {
   width: 270px;
   height: 16px;
   font-weight: 700;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   text-align: left;
 }
@@ -187,7 +187,7 @@ body {
   width: 270px;
   height: 16px;
   font-weight: 700;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   text-align: left;
 }
@@ -212,7 +212,7 @@ body {
   height: 42px;
   white-space: nowrap;
   font-weight: 700;
-  font-size: 2.25;
+  font-size: 2.25rem;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
@@ -230,7 +230,7 @@ body {
   font-family: "Raleway", sans-serif;
   text-decoration: none;
   font-weight: 700;
-  font-size: 1.62;
+  font-size: 1.62rem;
   line-height: 1.19;
 }
 
@@ -241,7 +241,7 @@ body {
 .address {
   width: 246px;
   height: 21px;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-family: "Roboto", sans-serif;
@@ -253,7 +253,7 @@ body {
   width: 72px;
   height: 19px;
   font-weight: 500;
-  font-size: 1;
+  font-size: 1rem;
   line-height: 1.18;
   white-space: nowrap;
   text-align: center;
@@ -264,7 +264,7 @@ body {
   width: 130px;
   height: 19px;
   font-weight: 400;
-  font-size: 1;
+  font-size: 1rem;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
@@ -275,7 +275,7 @@ body {
   width: 231px;
   height: 21px;
   font-weight: 400;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
@@ -292,7 +292,7 @@ body {
   height: 21px;
 
   font-weight: 400;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -318,7 +318,7 @@ body {
   width: 49px;
   height: 26px;
 
-  font-size: 1;
+  font-size: 1rem;
   line-height: 1.62;
 }
 
@@ -333,7 +333,7 @@ body {
   width: 322px;
   height: 30px;
 
-  font-size: 1;
+  font-size: 1rem;
   line-height: 1.87;
 
   color: #757575;
@@ -343,7 +343,7 @@ body {
   height: 36px;
 
   font-weight: 700;
-  font-size: 1.12;
+  font-size: 1.12rem;
   line-height: 2;
   letter-spacing: 0.06em;
 }
@@ -354,7 +354,7 @@ body {
   left: 453px;
   top: 32px;
   font-weight: 500;
-  font-size: 0.87;
+  font-size: 0.87rem;
   line-height: 1.14;
   text-decoration: none;
   color: #212121;
