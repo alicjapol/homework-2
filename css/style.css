@@ -297,7 +297,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-  color: #757575;
+  color: #ffffff99;
 }
 
 .footer-tel:active {
@@ -329,6 +329,7 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
 .button-type {
   width: 322px;
   height: 30px;
@@ -338,6 +339,7 @@ body {
 
   color: #757575;
 }
+
 .caption {
   width: 322px;
   height: 36px;
@@ -359,6 +361,7 @@ body {
   text-decoration: none;
   color: #212121;
 }
+
 .nav-portfolio {
   color: #2196f3;
 }
